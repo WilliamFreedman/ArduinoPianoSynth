@@ -1,6 +1,7 @@
+#include <Arduino.h>
 #include "pitches.h"
 
-#define BUZZER_PIN D8  // or 8 depending on your board
+#define BUZZER_PIN 8  // or 8 depending on your board
 
 void waitForHost() {
   Serial.println("Waiting for host...");
